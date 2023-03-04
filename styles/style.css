@@ -1,0 +1,15 @@
+h1.top-menu-container-text {
+    text-align:center;
+    font-family:'My Websites';
+    font-weight:lighter;
+
+}
+div.top-menu-container {
+    width:100%;
+    height:78px;
+    position:relative;
+    background-color:cornflowerblue;
+    border-radius:10px;
+    border-color:lightskyblue;
+    padding:1px;
+}
