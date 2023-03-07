@@ -30,12 +30,34 @@ div.top-menu-container {
 }
 @keyframes rainbow-border {
     0% {
-        border-image-offset: 0%;
+      border-color: #FF0000;
+      box-shadow: 0 0 15px #FF0000;
+    }
+    16.7% {
+      border-color: #FF7F00;
+      box-shadow: 0 0 15px #FF7F00;
+    }
+    33.3% {
+      border-color: #FFFF00;
+      box-shadow: 0 0 15px #FFFF00;
+    }
+    50% {
+      border-color: #00FF00;
+      box-shadow: 0 0 15px #00FF00;
+    }
+    66.7% {
+      border-color: #0000FF;
+      box-shadow: 0 0 15px #0000FF;
+    }
+    83.3% {
+      border-color: #8B00FF;
+      box-shadow: 0 0 15px #8B00FF;
     }
     100% {
-        border-image-offset: 100%;
+      border-color: #FF0000;
+      box-shadow: 0 0 15px #FF0000;
     }
-}
+  }
 .container-hyperlink {
     color:black;
 
